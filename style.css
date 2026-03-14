@@ -84,5 +84,97 @@ a{
     color: #E9BD8C;
     margin-left: 20px ;
 }
-
+.top-product{
+    height: 400px;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#top{
+    color: black;
+    font-size: 5em;
+    margin-top: auto ;
+    margin-bottom: 50px ;
+    font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", "Comic Sans MS", cursive;;
+}
+.content{
+    height: 800px;
+    width: 1200px;
+    margin-left: 150px;
+}
+#row{
+    height:400px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+.childContent{
+    height: 360px;
+    width: 360px;
+    background-image: url("All Images/1a8aefcee7dc162f158ab2c4936fcf8ea45adc1f.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    margin: 30px;
+}
+.childContent_2{
+    height: 360px;
+    width: 360px;
+    background-image: url("All Images/1a8aefcee7dc162f158ab2c4936fcf8ea45adc1f.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    justify-content: space-between;
+    margin-top: 30px ;
+    margin: 30px;
+}
+.item_img{
+    height: 200px;
+    width: 200px;
+    margin-left: 70px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#i1{
+    background-image: url("All Images/1e9e64552bf7b232daa4125196fdbb1c5fc17a65.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#i2{
+    background-image: url("All Images/97e59e01c887ac6803df18e7b2cb507b8a25fee1.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#i3{
+    background-image: url("All Images/2338d12e053467216c27e979b91b886dee8d5050.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 16em;
+}
+#i4{
+    background-image: url("All Images/a7f75c2826118e54873f1ef99bf0ba6b11888d29.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 15em;
+}
+#i5{
+    background-image: url("All Images/cd8c4236c3daaa4b21917d202d2755e0c2585a9e.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#i6{
+    background-image: url("All Images/9bc567a1cfb4efca5891740762e628f4099acf18.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
