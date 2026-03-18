@@ -228,7 +228,6 @@ a{
 #offer_banner{
     height: 400px;
     width: 100vw;
-    background-color: green;
     background-image: url("All Images/40483f228f559f53b01a360fa529321393f3fd73.png");
     background-size: 1600px 400px ;
     background-position: center;
@@ -270,4 +269,144 @@ a{
     font-size: 1.2em;
     color: white;
     background-color: #933C24;
+}
+/* This is explore items list section */
+.explor_more_parent{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.explor_more_child{
+    height: 100px;
+    width: 300px;
+    font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", "Comic Sans MS", cursive;
+    font-size: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #111111;
+}
+.item_list{
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.product p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #5D5D5D;
+    height: 35px;
+}
+.product:hover{
+    height: 35px;
+    border-bottom: 2px solid black;
+}
+.product_main{
+    height: 750px;
+    width: 1000px;
+    margin-top: 20px;
+    margin-left: 250px ;
+}
+.product_child_1{
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+}
+.product_child_2{
+    height: 350px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.product_list{
+    height: 300px;
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+}   
+#l1{
+    background-image: url("All Images/b84a88b6c207d3d302cd250030cab2c18a6c4704.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#l2{
+    background-image: url("All Images/f377b12e77a675f1963f86b9fe34d1b41c47189c.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#l3{
+    background-image: url("All Images/0e6302d7cc4ca3661ca690661d277e80b00e528d.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#l4{
+    background-image: url("All Images/85af8d8c88c004c1ba511939337df5bdbe18a75f.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#l5{
+    background-image: url("All Images/5b5b4d5bcb1ea430dda4fb6df10b6afe11348ab4.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#l6{
+    background-image: url("All Images/7c449960a1a3de044a8efd658a3902398d42949d.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about_us{
+    height: 400px;
+    width: 100vw;
+    background-image: url("All Images/680114d925b6e6f47bf7aeab7dbae21f97791d67.png");
+    background-size: 100vw  400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#us{
+    height: 50px;
+    width: 200px;
+    font-size: 3em;
+    font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", "Comic Sans MS", cursive;
+    color: #F5F5F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+#us_detail{
+    height: 250px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #B9B9B9;
+}
+#us_detail button{
+    height: 60px;
+    width: 150px;
+    font-size: 1.3em;
+    border-radius: 4px;
+    background-color: #933C24;
+    color: #F5F5F5;
+    margin-top: 30px;
 }
