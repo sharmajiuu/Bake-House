@@ -5,7 +5,7 @@
 }
 body{
     height: 100vh;
-    width: 100vw    ;
+    width: 100vw;    
     background-image: url("All Images/6eb8b1486cda0dc2e766c7b6b872516657fc3d55.png");
     background-size: cover;
     background-position: center;
@@ -409,4 +409,195 @@ a{
     background-color: #933C24;
     color: #F5F5F5;
     margin-top: 30px;
+}
+/* Featured products */
+.featured_treats{
+    height: 700px;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#featured_head{
+    height: 80px;
+    width: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Brush Script MT", "Lucida Handwriting", "Segoe Script", "Comic Sans MS", cursive;
+    font-size: 2.6em;
+    color: #111111;
+    margin-top: 50px;
+}
+.main_cards{
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-direction: row;
+}
+.child_cards{
+    height: 400px;
+    width: 300px;
+    margin: 50px;
+    border-radius: 10px;
+}
+.c_img{
+    height: 300px;
+    width: 300px;
+    background-repeat: no-repeat;   
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+}
+.c_detail{
+    height: 100px;
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.4em;
+    color: #000000;
+    background-color: white;
+    margin-top: 2px ;
+}
+.c_detail p{
+    margin-left: 20px;
+}
+.c_detail #p2{
+    margin-left: auto;
+    margin-right: 20px;
+}
+#img_c1{
+    background-image: url("All Images/6508ba92a5c382d491c8c1e941b42fe263099eaa.png");
+    
+}
+#img_c2{
+    background-image: url("All Images/a98aec68552cf436d8c1557de624a37bcd929fe2.png");
+}
+#img_c3{
+    background-image: url("All Images/5b38868b7d37d1959035b24828e4298016918f90.png");
+}
+/* footer style */
+.footer{
+    height: 600px;
+    width: 100vw;
+    background-image: url("All Images/1a8aefcee7dc162f158ab2c4936fcf8ea45adc1f.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer hr{
+    width: 1300px;
+    background-color: #E9BD8D33;
+    height: 2px;
+    margin-left: 100px;
+}
+.footer_head{
+    height: 200px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer_head_logo{
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+#footer_img{
+    height: 100px;
+    width: 100px;
+    background-image: url("All Images/5e29c2fb93928edaef7353380f2d303925555510.png");
+    background-position: center;
+    background-size: 10em;
+    background-repeat: no-repeat;
+}
+#footer_head_social{
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: 50px;
+    padding: 20px;
+}
+#footer_head_social p{
+    font-size: 1.8em;
+    color: #E9BD8C;
+}
+#facebook, #instagram, #whatsapp{
+    font-size: 1.5em;
+}
+#facebook i, #instagram i, #whatsapp i{
+    color: #E9BD8C;
+}
+.sub_footer{
+    height: 300px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#about_us{
+    height: 300px;
+    width: 300px;
+}
+#explore{
+    height: 300px;
+    width: 300px;
+}
+#recent_news{
+    height: 300px;
+    width: 300px;
+}
+.head{
+    font-size: 2em;
+    margin-top: 20px;
+    color: #E9BD8D;
+}
+#detail_about{
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: white;
+}
+#detail_explore{
+    color: white;
+    margin-top: 20px;
+}
+.news{
+    display: flex;
+    flex-direction: row;
+}
+#news_img{
+    height: 80px;
+    width: 80px;
+    background-color: red;  
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url("All Images/75ac94df6b37db1055b0b2b85bc855f5a64da56f.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+}
+#news_detail{
+    color: white;
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+.copyRight{
+    color: #737373;
+    font-size: 2em;
+    display: flex;
+    flex-direction: row;
+}
+.copyRight i{
+    margin-left: 500px;
+    margin-right: 5px;
 }
